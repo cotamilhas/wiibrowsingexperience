@@ -1,0 +1,138 @@
+body {
+    background-color: black;
+    color: lime;
+    font-family: "Courier New", monospace;
+    margin: 0;
+    padding: 0;
+}
+
+#container {
+    width: 600px;
+    margin: 20px auto;
+    background-color: #111;
+    border: 2px solid lime;
+    overflow: hidden;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    text-align: center;
+}
+
+p {
+    font-size: 16px;
+    text-align: center;
+}
+
+.box {
+    border: 2px dashed lime;
+    padding: 10px;
+    margin: 15px 0;
+}
+
+marquee {
+    font-size: 16px;
+}
+
+img {
+    display: block;
+    margin: 10px auto;
+}
+
+.footer {
+    text-align: center;
+    font-size: 12px;
+}
+
+#info {
+    width: 580px;
+    height: 150px;
+    overflow: auto;
+    border: 1px solid lime;
+    padding: 10px;
+    margin: 10px auto;
+    background-color: #222;
+    color: lime;
+    font-family: "Courier New", monospace;
+    font-size: 14px;
+    white-space: normal;
+}
+
+#navbar {
+    background-color: #222;
+    border: 1px solid lime;
+    padding: 5px;
+    overflow: hidden;
+    width: 600px;
+    margin: 0 auto 20px auto;
+}
+
+#navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    white-space: nowrap;
+}
+
+#navbar ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+#navbar ul li a {
+    color: lime;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+#navbar ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Calculator */
+#display {
+    width: 260px;
+    height: 30px;
+    font-size: 18px;
+    margin-bottom: 10px;
+    background-color: #222;
+    color: lime;
+    border: 1px solid lime;
+    text-align: right;
+    padding-right: 5px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+input[type="button"] {
+    width: 60px;
+    height: 40px;
+    margin: 4px;
+    font-size: 18px;
+    background-color: #111;
+    color: lime;
+    border: 1px solid lime;
+    cursor: pointer;
+}
+
+input[type="button"]:hover {
+    background-color: lime;
+    color: black;
+}
+
+#containerCalc {
+    width: 600px;
+    margin: 20px auto;
+    background-color: #111;
+    border: 2px solid lime;
+    overflow: hidden;
+}
+
+#containerCalc .numbers {
+    text-align: center;
+}
